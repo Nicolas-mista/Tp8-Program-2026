@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Caso de prueba fijo — TP8</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #ffffff;
+      color: #1a1a1a;
+    }
+    .page {
+      display: flex;
+      gap: 32px;
+      padding: 24px;
+      align-items: flex-start;
+    }
+    .shot {
+      width: 1280px;
+      border: 1px solid #cfc7b8;
+      border-radius: 4px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    }
+    .margin {
+      width: 420px;
+      padding: 20px 24px;
+      border-left: 2px dashed #8a8172;
+      font-family: "Segoe Print", "Comic Sans MS", cursive;
+      font-size: 23px;
+      line-height: 1.7;
+    }
+    .margin h2 {
+      margin: 0 0 18px;
+      font-size: 24px;
+      text-decoration: underline;
+      text-underline-offset: 6px;
+    }
+    .margin p {
+      margin: 20px 0;
+    }
+    .margin strong {
+      font-size: 26px;
+    }
+    .margin .note {
+      margin-top: 34px;
+      font-size: 18px;
+      line-height: 1.5;
+      color: #4a453c;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <img class="shot" src="bitacora.png" alt="Bitácora del experimento con el caso de prueba fijo">
+    <aside class="margin">
+      <h2>Cálculo a mano</h2>
+      <p>18 / 240 = 0,075 = <strong>7,50%</strong></p>
+      <p>31 / 236 = 0,131355... = <strong>13,14%</strong></p>
+      <p>13,14 − 7,50 = <strong>5,64 pp</strong></p>
+      <p class="note">Diferencia observada, no prueba de ganador.</p>
+    </aside>
+  </div>
+</body>
+</html>
